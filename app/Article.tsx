@@ -1,3 +1,5 @@
+import ReadMoreButton from "./ReadMoreButton"
+
 /* eslint-disable @next/next/no-img-element */
 type Props = {
     article: Article;
@@ -30,7 +32,7 @@ function Article({article}: Props) {
                 </div>
 
                 {/* ReadMoreButton */}
-
+                <ReadMoreButton article={article} />
             </div>
         </article>
     )
