@@ -17,7 +17,7 @@ type Pagination {
   total: Int
 }
 type Root {
-  data: [DataEntry  ]
+  data: [DataEntry]
   pagination: Pagination
 }
 
