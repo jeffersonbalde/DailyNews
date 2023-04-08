@@ -11,7 +11,7 @@ function Header() {
             <Bars3BottomLeftIcon className='h-8 w-8 cursor-pointer' />
             <Link href='/' prefetch={false}>
                 <h1 className='font-serif text-4xl text-center'>
-                    Test{" "}
+                    Test2{" "}
                     <span className='underline decoration-6
                     decoration-orange-400'>
                     Global
