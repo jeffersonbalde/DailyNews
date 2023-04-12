@@ -1,38 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This project is all about a global news application that allows users to stay up to date with the latest news from all over the world. It utilizes various technologies and APIs to bring users an optimal experience. Here's what you can expect from my project:
 
-## Getting Started
+➢ See the latest news from all over the world <br />
+➢ Utilizes Stepzen for GraphQL APIs for faster and more efficient data retrieval <br />
+➢ Built with React.js for a smooth and dynamic user interface <br />
+➢ Implemented with TypeScript for better code organization and maintainability <br />
+➢ Utilizes Next.js13 server components for server-side rendering to optimize performance <br />
+➢ Styling with TailwindCSS for clean and modern design <br />
+➢ Uses MediaStack API for image retrieval to provide visually rich content <br />
+➢ Features both dark mode and light mode for customizable user experience <br />
 
-First, run the development server:
+To get started, simply clone the repository and follow the instructions below.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+1. Clone the repository to your local machine using Git or your preferred version control system.
+2. Navigate to the project directory in your terminal or command prompt.
+3. Install the required dependencies by running npm install or yarn install.
+4. Obtain API keys for MediaStack and Stepzen APIs and add them to a .env.local file in the root directory of the project. The file should look like this:
+
+```
+MEDIASTACK_API_KEY=YOUR_MEDIASTACK_API_KEY
+STEPZEN_API_KEY=YOUR_STEPZEN_API_KEY
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Start the development server by running npm run dev or yarn dev.
+6. Open your web browser and navigate to http://localhost:3000 to view the application.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+And that's it! You should now be able to see the application running locally on your machine.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+With this app, you can easily stay informed on the latest news and events from around the globe. The sleek design and customizable features make it a great choice for any user. Check out the screenshots below to see the app in action:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Light Mode: 
+<img
+  src="./app/assets/Screenshot (43).png"
+  alt="Light Mode"
+  title="Global News App Images"
+  style="display: inline-block; margin: 0 auto; max-width: 300px" />
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Dark Mode: 
+<img
+  src="./app/assets/Screenshot (41).png"
+  alt="Alt text"
+  title="Optional title"
+  style="Global News App Images; margin: 0 auto; max-width: 300px" />
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Thank you for checking out my project! I hope it serves as a useful tool for staying up to date on global news.
