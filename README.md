@@ -6,7 +6,7 @@ The Global News App is a web application that allows users to browse news from a
 
 ## Live Link
 
-[https://jeff-daily-global-news-app.vercel.app/](https://jeff-daily-global-news-app.vercel.app/)
+[https://jeff-global-news-app.vercel.app/](https://jeff-global-news-app.vercel.app/)
 
 ## How to Run the Project
 
