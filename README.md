@@ -1,45 +1,49 @@
-This project is all about a global news application that allows users to stay up to date with the latest news from all over the world. It utilizes various technologies and APIs to bring users an optimal experience. Here's what you can expect from my project:
+# Global News App
 
-➢ See the latest news from all over the world <br />
-➢ Utilizes Stepzen for GraphQL APIs for faster and more efficient data retrieval <br />
-➢ Built with React.js for a smooth and dynamic user interface <br />
-➢ Implemented with TypeScript for better code organization and maintainability <br />
-➢ Utilizes Next.js13 server components for server-side rendering to optimize performance <br />
-➢ Styling with TailwindCSS for clean and modern design <br />
-➢ Uses MediaStack API for image retrieval to provide visually rich content <br />
-➢ Features both dark mode and light mode for customizable user experience <br />
+## Description
 
-To get started, simply clone the repository and follow the instructions below.
+The Global News App is a web application that allows users to browse news from around the world. Users can filter news by categories and switch between light and dark modes. The app also includes a search feature, which enables users to search for specific news articles.
 
-1. Clone the repository to your local machine using Git or your preferred version control system.
-2. Navigate to the project directory in your terminal or command prompt.
-3. Install the required dependencies by running npm install or yarn install.
-4. Obtain API keys for MediaStack and Stepzen APIs and add them to a .env.local file in the root directory of the project. The file should look like this:
+## Live Link
 
-```
-MEDIASTACK_API_KEY=YOUR_MEDIASTACK_API_KEY
-STEPZEN_API_KEY=YOUR_STEPZEN_API_KEY
-```
+[https://jeff-daily-global-news-app.vercel.app/](https://jeff-daily-global-news-app.vercel.app/)
 
-5. Start the development server by running npm run dev or yarn dev.
-6. Open your web browser and navigate to http://localhost:3000 to view the application.
+## How to Run the Project
 
-And that's it! You should now be able to see the application running locally on your machine.
+1. Clone the repository to your local machine.
+2. Navigate to the project directory in your terminal.
+3. Install dependencies by running `npm install`.
+4. Create a `.env` file in the root directory of the project and add the following environment variables:
 
-With this app, you can easily stay informed on the latest news and events from around the globe. The sleek design and customizable features make it a great choice for any user. Check out the screenshots below to see the app in action:
+````
+MEDIASATCK_API_KEY=insert_your_api_key_here
+STEPZEN_API_KEY=insert_your_api_key_here
+````
 
-Light Mode: 
-<img
-  src="./app/assets/Screenshot (43).png"
-  alt="Light Mode"
-  title="Global News App Images"
-  style="display: inline-block; margin: 0 auto; max-width: 300px" />
+Note: You can obtain your MediaStack and StepZen API keys by signing up for an account on their respective websites.
 
-Dark Mode: 
-<img
-  src="./app/assets/Screenshot (41).png"
-  alt="Alt text"
-  title="Optional title"
-  style="Global News App Images; margin: 0 auto; max-width: 300px" />
+5. Run `npm run dev` to start the development server.
+6. Open your browser and navigate to `http://localhost:3000` to view the app.
 
-Thank you for checking out my project! I hope it serves as a useful tool for staying up to date on global news.
+## Features
+
+### Filter News by Categories
+
+<img width="700" alt="cityspacehome" src="./app/assets/demo1.gif">
+
+### Switch Between Light and Dark Modes
+
+<img width="700" alt="cityspacehome" src="./app/assets/demo2.gif">
+
+### Search for News Articles
+
+<img width="700" alt="cityspacehome" src="./app/assets/demo3.gif">
+
+## Technologies Used
+
+- React
+- Next.js
+- TailwindCSS
+- TypeScript
+- Stepzen(GraphQL)
+- Mediastack API
