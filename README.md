@@ -8,23 +8,6 @@ The Global News App is a web application that allows users to browse news from a
 
 [https://jeff-global-news-app.vercel.app/](https://jeff-global-news-app.vercel.app/)
 
-## How to Run the Project
-
-1. Clone the repository to your local machine.
-2. Navigate to the project directory in your terminal.
-3. Install dependencies by running `npm install`.
-4. Create a `.env` file in the root directory of the project and add the following environment variables:
-
-````
-MEDIASATCK_API_KEY=insert_your_api_key_here
-STEPZEN_API_KEY=insert_your_api_key_here
-````
-
-Note: You can obtain your MediaStack and StepZen API keys by signing up for an account on their respective websites.
-
-5. Run `npm run dev` to start the development server.
-6. Open your browser and navigate to `http://localhost:3000` to view the app.
-
 ## Features
 
 ### Filter News by Categories
