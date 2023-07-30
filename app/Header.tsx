@@ -16,7 +16,7 @@ function Header() {
                     src={newsIcon}
                     alt='DG News'
                 />
-                <h1 className='font-serif text-4xl text-center text-[#FF5722]'>
+                <h1 className='font-semibold text-4xl text-center text-[#FF5722]'>
                     DG{" "}
                     <span className='underline decoration-6
                     decoration-orange-400'>
